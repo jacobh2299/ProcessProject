@@ -38,14 +38,15 @@ public class SampleController
 			Scanner firstScanner; //Declares a scanner object
 			firstScanner = new Scanner(System.in); //Instanciates a Scanner object
 			System.out.println("Type Here your age:");
-//		String input = firstScanner.nextLine();
-//		System.out.println("Your Mom Is A "+input+"!!!!!");
-//		for(long i=0; i<100000; i++) {
-//		System.out.println("gottem!!!!!! ლ(▀̿̿Ĺ̯̿̿▀̿ლ)");	
 			int ageAnswer = firstScanner.nextInt();
-			System.out.println("you said u are "+ageAnswer +" Years Old");
+			System.out.println("you said you are "+ageAnswer +" years old");
 			
-			
+//			 PlayDohCircle changeCircle = new PlayDohCircle();
+//			System.out.println("Here is the circle before i changed it");
+//			System.out.println(changeCircle);
+//			System.out.println("Type in a new size - use numbers please.");
+//			int mySize = firstScanner.nextInt();
+//			System.out.println("Your new circle has a diameter of "+mySize);
 			
 			}
 	}

@@ -17,7 +17,7 @@ public class PlayDohCircle
 
 	public void setSize(int updateSize)
 	{
-		
+		this.size = updateSize;
 	}
 	
 	
